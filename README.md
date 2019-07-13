@@ -1,5 +1,5 @@
 # My Résumé
-This is my résumé built with vanilla HTML & CSS. It was built with PDF conversion and printing in mind. Demo.
+This is my résumé built with vanilla HTML & CSS. It was built with PDF conversion and printing in mind. [Demo](https://timv88.github.io/resume).
 
 ## Stuff I used
 
