@@ -1,0 +1,19 @@
+@page {
+    size: letter portrait;
+    margin: 32px 0;
+    padding: 32px;
+}
+
+/* save ink */
+* {
+    box-shadow: none;
+    text-shadow: none;
+}
+
+
+/* print link hrefs  */
+/* a:after {
+    content: "("attr(href)")";
+    font-size: 0.85rem;
+} */
+
