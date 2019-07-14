@@ -4,7 +4,7 @@
 }
 
 .paper {
-    background-color: var(--color-grey-100);
+    /* background-color: var(--color-grey-100); */
 }
 
 html {
@@ -12,8 +12,8 @@ html {
 }
 
 /* ensure content doesn't get broken */
-.layout__row,
-.layout__header {
+.content,
+.header {
     page-break-inside: avoid;
 }
 
@@ -23,7 +23,7 @@ html {
     text-shadow: none;
 }
 
-/* print link hrefs  */
+/* print link href  */
 /* a:after {
     content: " ("attr(href)")";
     font-size: 0.85rem;
