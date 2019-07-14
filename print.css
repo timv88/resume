@@ -2,7 +2,25 @@
     size: letter portrait;
     margin: 32px 0;
     padding: 32px;
+    
 }
+
+.paper {
+    background-color: var(--bg-color-alt);
+}
+
+html {
+    font-size: 8pt;   
+}
+
+.layout__row,
+.layout__header {
+    page-break-inside: avoid;
+}
+
+/* .header__sidebar {
+    display: none;
+} */
 
 /* save ink */
 * {
@@ -10,10 +28,9 @@
     text-shadow: none;
 }
 
-
 /* print link hrefs  */
 /* a:after {
-    content: "("attr(href)")";
+    content: " ("attr(href)")";
     font-size: 0.85rem;
 } */
 
