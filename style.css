@@ -10,7 +10,7 @@
     --color-primary: var(--color-deeporange-500);
 
     --font-color-primary: #DD2C00;
-    --font-color-dark: rgba(0,0,0,.95);
+    --font-color-dark: rgba(0,0,0,.98);
     --font-color-light: rgba(255,255,255,.98);
 
     --font-family-heading: 'Open Sans', sans-serif;
@@ -177,6 +177,10 @@ a:hover {
     background-color: var(--color-grey-800);
 }
 
+.header__main p {
+    font-size: 1.1rem;
+}
+
 .header__subtitle {
     margin-top: 0;
     margin-bottom: var(--size-2);
@@ -224,7 +228,7 @@ a:hover {
 }
 
 .footer__blurb {
-    display: inline-flex;
+    display: flex;
     padding-left: var(--size-2); 
     padding-right: var(--size-2);
     flex-wrap: wrap;
