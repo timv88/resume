@@ -1,26 +1,21 @@
 @page {
     size: letter portrait;
-    margin: 32px 0;
-    padding: 32px;
-    
+    margin: 0;
 }
 
 .paper {
-    background-color: var(--bg-color-alt);
+    background-color: var(--color-grey-100);
 }
 
 html {
     font-size: 8pt;   
 }
 
+/* ensure content doesn't get broken */
 .layout__row,
 .layout__header {
     page-break-inside: avoid;
 }
-
-/* .header__sidebar {
-    display: none;
-} */
 
 /* save ink */
 * {
